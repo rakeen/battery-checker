@@ -60,9 +60,11 @@ function updateBatteryStatus(){
 	else indicator.style.width = battery.level * 100 + '%';
 
 
+	console.log();
+
 	var lvl = battery.level*100 + ' %';
 	indicator.className = battery.charging ? 'charging' : 'notCharging';
 
-	document.querySelector('.indicator-info').textContent = battery.charging ? 'Charging '+lvl : 'Not Charging '+lvl;		
-	document.querySelector('.discharge').textContent = battery.dischargingTime===Infinity ? "Discharging Time:\t Infinity" : "Discharging Time:\t "+battery.dischargingTime/60;
+	document.querySelector('.indicator-info').textContent = battery.charging ? 'Plugged-In '+lvl : 'Not Charging '+lvl;		
+	document.querySelector('.discharge').textContent = battery.dischargingTime===Infinity ? "Discharging Time:\t Infinity" : "Discharging Time:\t "+ parseInt(battery.dischargingTime/60);
 }
