@@ -33,12 +33,13 @@ function initQuote(){
 
 
 function initBattery(){
-	var battery = navigator.getBattery();  
-	if(!battery){
+	
+	if(typeof navigator.getBattery === "undefined"){
 		document.querySelector('#dinosaur').style.display = 'block';
 		console.error('you\'re a dinosaur');
 	}
 	else{
+		var battery = navigator.getBattery();  
 		battery.then(function(res){
 			console.log(res);
 			window.battery = res;
