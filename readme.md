@@ -8,7 +8,7 @@ Battery Checker:
 
 Checks your battery with battery api.  
 
-
+![Alt text](./demo.png?raw=true "demo")
 <br><br>
 
 Basically it's the result of playing with js `Promise`,`fetch` and `battery` api.  
