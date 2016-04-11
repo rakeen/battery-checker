@@ -1,3 +1,18 @@
 {
-	"quote": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro consequuntur eaque vel autem, sequi animi modi velit ullam! Optio porro, ducimus officia odit! Delectus nihil, ad mollitia nemo cum et."
+	"local": "yes",
+
+	"quotes": [
+		"Dance like nobody is watching, code like everybody is.",
+		"A/B Test twice, deploy changes once.",
+		"Sleep on a force push.",
+		"Don't commit on master when drunk.",
+		"A git pull a day, keeps the doctor away.",
+		"Sometimes you have to cut legacy support to allow the new product to bloom.",
+		"Scope creep makes a mountain.",
+		"Facebook wasn't built in a day.",
+		"Absence is beauty, in error logs.",
+		"What happens in Git stays in Git"
+		],
+
+	"source": "https://github.com/AntJanus/programmers-proverbs"
 }
