@@ -1,3 +1,7 @@
+initQuote();
+initBattery();
+
+
 function initQuote(){
 	var quoteUrl1 = 'http://quotes.stormconsultancy.co.uk/random.json';  
 	var quoteUrl2 = './quote.json';
@@ -27,8 +31,6 @@ function initQuote(){
 	}
 }
 
-initQuote();
-initBattery();
 
 function initBattery(){
 	var battery = navigator.getBattery();  
@@ -49,6 +51,8 @@ function initBattery(){
 	}
 
 }
+
+
 function updateBatteryStatus(){
 
 	if(battery.level*100 === 100) indicator.style.width = '97%'; /* or else it overflows */
