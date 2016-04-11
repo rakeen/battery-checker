@@ -64,5 +64,5 @@ function updateBatteryStatus(){
 	indicator.className = battery.charging ? 'charging' : 'notCharging';
 
 	document.querySelector('.indicator-info').textContent = battery.charging ? 'Charging '+lvl : 'Not Charging '+lvl;		
-	document.querySelector('.discharge').textContent = battery.dischargingTime==="Infinity" ? "Discharging Time:\t Infinity" : "Discharging Time:\t "+battery.dischargingTime/60;
+	document.querySelector('.discharge').textContent = battery.dischargingTime===Infinity ? "Discharging Time:\t Infinity" : "Discharging Time:\t "+battery.dischargingTime/60;
 }
