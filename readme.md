@@ -1,7 +1,7 @@
 [![wtfpl](http://www.wtfpl.net/wp-content/uploads/2012/12/wtfpl-badge-4.png)](http://www.wtfpl.net/txt/copying/)
 [![Travis](https://img.shields.io/badge/made%20with-love-red.svg)](https://github.com/rakeen/battery-checker)
 [![stable](http://badges.github.io/stability-badges/dist/stable.svg)](http://github.com/badges/stability-badges)
-
+[![Code Climate](https://codeclimate.com/github/rakeen/battery-checker/badges/gpa.svg)](https://codeclimate.com/github/rakeen/battery-checker)
 
 Battery Checker:
 ================
