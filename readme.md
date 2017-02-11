@@ -2,6 +2,7 @@
 [![Travis](https://img.shields.io/badge/made%20with-love-red.svg)](https://github.com/rakeen/battery-checker)
 [![stable](http://badges.github.io/stability-badges/dist/stable.svg)](http://github.com/badges/stability-badges)
 [![Code Climate](https://codeclimate.com/github/rakeen/battery-checker/badges/gpa.svg)](https://codeclimate.com/github/rakeen/battery-checker)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/552a2d5876db4819b7810ed5bec673da)](https://www.codacy.com/app/rakeen/battery-checker?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=rakeen/battery-checker&amp;utm_campaign=Badge_Grade)
 
 Battery Checker:
 ================
